@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C687EEEC202772270094FE27 /* amego_advantage.png in Resources */ = {isa = PBXBuildFile; fileRef = C687EEEA202772270094FE27 /* amego_advantage.png */; };
+		C687EEED202772270094FE27 /* amego_int.png in Resources */ = {isa = PBXBuildFile; fileRef = C687EEEB202772270094FE27 /* amego_int.png */; };
+		C687EEEF202776CD0094FE27 /* TopImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C687EEEE202776CC0094FE27 /* TopImage.png */; };
 		CF0C6A492023007600721241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0C6A482023007600721241 /* AppDelegate.swift */; };
 		CF0C6A4B2023007600721241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0C6A4A2023007600721241 /* ViewController.swift */; };
 		CF0C6A4E2023007600721241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0C6A4C2023007600721241 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C687EEEA202772270094FE27 /* amego_advantage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amego_advantage.png; sourceTree = "<group>"; };
+		C687EEEB202772270094FE27 /* amego_int.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amego_int.png; sourceTree = "<group>"; };
+		C687EEEE202776CC0094FE27 /* TopImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopImage.png; sourceTree = "<group>"; };
 		CF0C6A452023007600721241 /* Amego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amego.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0C6A482023007600721241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF0C6A4A2023007600721241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C687EEE9202772270094FE27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C687EEEA202772270094FE27 /* amego_advantage.png */,
+				C687EEEE202776CC0094FE27 /* TopImage.png */,
+				C687EEEB202772270094FE27 /* amego_int.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		CF0C6A3C2023007600721241 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +70,7 @@
 		CF0C6A472023007600721241 /* Amego */ = {
 			isa = PBXGroup;
 			children = (
+				C687EEE9202772270094FE27 /* Images */,
 				CF0C6A482023007600721241 /* AppDelegate.swift */,
 				CF0C6A4A2023007600721241 /* ViewController.swift */,
 				CF0C6A4C2023007600721241 /* Main.storyboard */,
@@ -123,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C687EEED202772270094FE27 /* amego_int.png in Resources */,
 				CF0C6A532023007600721241 /* LaunchScreen.storyboard in Resources */,
+				C687EEEC202772270094FE27 /* amego_advantage.png in Resources */,
+				C687EEEF202776CD0094FE27 /* TopImage.png in Resources */,
 				CF0C6A502023007600721241 /* Assets.xcassets in Resources */,
 				CF0C6A4E2023007600721241 /* Main.storyboard in Resources */,
 			);
